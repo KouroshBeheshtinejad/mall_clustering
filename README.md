@@ -18,8 +18,8 @@ This is a complete end-to-end project including:
 ## 🔹 Features
 
 - **Preprocessing**
-  -- Dropped unnecessary columns
-  -- Encoded categorical features (Gender)
+  - Dropped unnecessary columns
+   Encoded categorical features (Gender)
 - **Clustering**
   - KMeans (k=2..10, final k=6)
   - Agglomerative Hierarchical
@@ -92,15 +92,15 @@ python clustering_analysis.py
 
 ## 🔹 Results
 
-- **Optimal K for KMeans: 6**
-- **Silhouette Scores**
+### **Optimal K for KMeans: 6**
+### **Silhouette Scores**
  - KMeans (k=6): 0.428
  - Agglomerative: 0.420
  - DBSCAN: 0.482
 
 DBSCAN achieved the highest silhouette score but creates some noise points (`-1`).
 
-- **Cluster Insights**
+### **Cluster Insights:**
  - Cluster 0 → Older, mid-income, medium spending
  - Cluster 1 → Younger, mid-income, medium spending
  - Cluster 2 → Old, high-income, low spending
@@ -108,27 +108,27 @@ DBSCAN achieved the highest silhouette score but creates some noise points (`-1`
  - Cluster 4 → Younger, low-income, high spending
  - Cluster 5 → Old, low-income, low spending
 
-- **Visualizations**
+### **Visualizations**
  - PCA projection showing KMeans, Agglomerative, DBSCAN
  - Cluster scatter and bar plots
 
 
 ## 🔹 Algorithms Used
 
-1. **KMeans**
+### 1. **KMeans**
  - Centroid-based clustering
  - Number of clusters optimized with silhouette scores
 
-2. **Agglomerative Hierarchical Clustering**
+### 2. **Agglomerative Hierarchical Clustering**
  - Bottom-up clustering
  - Euclidean distance metric
 
-3. **DBSCAN**
+### 3. **DBSCAN**
  - Density-based clustering
  - Detects noise/outliers
  - `eps=0.5`, `min_samples=5`
 
-4. **PCA**
+### 4. **PCA**
  - Reduces 3D features into 2D for visualization
 
 
