@@ -38,7 +38,7 @@ This is a complete end-to-end project including:
 ---
 
 ## 🔹 Directory Structure
-
+```bash
 mall_clustering/
 │
 ├─ data/ # Dataset (not included in GitHub, sample CSV can be added)
@@ -49,7 +49,7 @@ mall_clustering/
 │ └─ clustering_analysis.py
 ├─ .gitignore # Ignore data, figures, reports
 └─ README.md
-
+```
 
 ---
 
