@@ -18,8 +18,8 @@ This is a complete end-to-end project including:
 ## 🔹 Features
 
 - **Preprocessing**
-  - Dropped unnecessary columns
-  - Encoded categorical features (Gender)
+  -- Dropped unnecessary columns
+  -- Encoded categorical features (Gender)
 - **Clustering**
   - KMeans (k=2..10, final k=6)
   - Agglomerative Hierarchical
