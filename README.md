@@ -57,7 +57,7 @@ mall_clustering/
 
 ### **1. Clone the repository**
 ```bash
-git clone https://github.com/<your-username>/mall_clustering.git
+git clone https://github.com/KouroshBeheshtinejad/mall_clustering.git
 cd mall_clustering/src
 ```
 
